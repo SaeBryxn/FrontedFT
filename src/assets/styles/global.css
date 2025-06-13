@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #219653;
+    --accent-color: #F2C94C;
+    --font-main: 'Inter', sans-serif;
+    --font-color: #333;
+    --bg-color: #f7f8fc;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+:root {
+    --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.dark-mode {
+    background-color: #0f172a !important;
+    color: #f1f5f9 !important;
+}
+
+.dark-mode .p-card,
+.dark-mode .p-dialog,
+.dark-mode .p-datatable,
+.dark-mode .p-dropdown {
+    background-color: #1e293b !important;
+    color: #f8fafc !important;
+    border-color: #334155 !important;
+}
+.dark-theme .p-card,
+.dark-theme .p-dialog,
+.dark-theme .p-datatable,
+.dark-theme .p-dropdown,
+.dark-theme .p-inputtext,
+.dark-theme .p-button {
+    background-color: #1e293b !important;
+    color: #f1f5f9 !important;
+    border-color: #334155 !important;
+}
+
+.dark-theme .p-button {
+    background-color: #22c55e !important;
+    border: none;
+    color: #ffffff;
+}
+
+.dark-theme .p-button:disabled {
+    background-color: #4b5563 !important;
+}

@@ -1,0 +1,84 @@
+{
+  "welcome": {
+    "title": "Welcome to FuelTrack",
+    "subtitle": "Select your user type to continue:",
+    "client_title": "Client",
+    "client_desc": "Companies that request fuel",
+    "supplier_title": "Supplier",
+    "supplier_desc": "Companies that supply fuel"
+  },
+  "login": {
+    "client": {
+      "subtitle": "Optimize the management of your fuel orders",
+      "submit": "Login as Client",
+      "not_client": "Not a Client?"
+    },
+    "supplier": {
+      "subtitle": "Access portal for Suppliers",
+      "submit": "Login as Supplier",
+      "not_supplier": "Not a Supplier?"
+    },
+    "demo_client": "✅ Demo access as client",
+    "demo_supplier": "✅ Demo access as supplier"
+  },
+  "sidebar": {
+    "client": {
+      "admin": "Admin",
+      "orders": "Orders",
+      "analytics": "Analytics",
+      "terminals": "Terminals",
+      "provider": "Provider",
+      "workflows": "Workflows"
+    },
+    "supplier": {
+      "admin": "Admin",
+      "orders": "Order Management",
+      "conciliations": "Reconciliations",
+      "dispatch": "Dispatch",
+      "analytics": "Analytics",
+      "prices": "Prices",
+      "clients": "Clients"
+    }
+  },
+  "orders": {
+    "my_orders": "My Orders",
+    "create_order": "Create Order",
+    "filters": {
+      "total": "Total Orders",
+      "approved": "Approved",
+      "requested": "Requested",
+      "filters": "Filters",
+      "state": "Status",
+      "all": "All",
+      "released": "Released",
+      "closed": "Closed",
+      "from": "From",
+      "to": "To",
+      "apply": "Apply"
+    },
+    "table": {
+      "created": "Created",
+      "user": "User",
+      "amount": "Amount",
+      "terminal": "Terminal",
+      "order_id": "Order ID",
+      "status": "Status",
+      "copy_id": "Copy ID"
+    }
+  },
+  "common": {
+    "email": "Email",
+    "password": "Password",
+    "ruc": "RUC",
+    "click_here": "Click here"
+  },
+  "pagination": {
+    "items_per_page": "Items per page",
+    "of": "of",
+    "items": "items"
+  },
+  "analytics": {
+    "fuelConsumption": "Fuel consumption by type",
+    "totalVolume": "Total volume dispatched (gallons)"
+  }
+}

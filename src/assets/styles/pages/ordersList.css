@@ -1,0 +1,170 @@
+.orders-container {
+    padding: 2rem;
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f9fb;
+    min-height: 100vh;
+}
+
+.orders-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.create-order-btn {
+    background-color: #1da94d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.create-order-btn:hover {
+    background-color: #168f3d;
+}
+
+.orders-actions {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.stats > div {
+    text-align: right;
+}
+
+.stats h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.stats p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.filter-controls button {
+    background: #f6f6f6;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.04);
+}
+
+.orders-table thead {
+    background-color: #f9fbfd;
+    color: #333;
+}
+
+.orders-table th, .orders-table td {
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 0.92rem;
+    border-bottom: 1px solid #eee;
+}
+
+.orders-table tr:hover {
+    background-color: #f5f9fc;
+    cursor: pointer;
+}
+
+.badge {
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    border-radius: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.badge.requested {
+    background-color: #e6f9ec;
+    color: #1da94d;
+}
+
+.badge.released {
+    background-color: #e6f2ff;
+    color: #3182ce;
+}
+
+.badge.closed {
+    background-color: #fde9f0;
+    color: #e53e3e;
+}
+
+.badge.approved {
+    background-color: #fff5e6;
+    color: #dd6b20;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #666;
+    padding: 0.5rem 0;
+}
+
+.pagination select {
+    margin-left: 5px;
+}
+
+.pagination button {
+    padding: 5px 12px;
+    border: none;
+    background-color: #f6f6f6;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.expand-icon {
+    cursor: pointer;
+    color: #777;
+    font-size: 0.9rem;
+    margin-right: 6px;
+}
+
+.order-details {
+    background-color: #f9fbfd;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.order-details table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.order-details th,
+.order-details td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.order-details thead {
+    background-color: #edf3f8;
+    font-weight: bold;
+}

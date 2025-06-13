@@ -1,0 +1,421 @@
+{
+  "orders": [
+    {
+      "id": "1001",
+      "created": "2025-05-10",
+      "user": "Lucía Mejía",
+      "terminal": "Lurín",
+      "amount": "S/ 3000.00",
+      "orderId": "d_test_1",
+      "status": "Released",
+      "approved": true,
+      "products": [
+        {
+          "product": "Diesel B5",
+          "quantity": 300,
+          "unit": "gal",
+          "price": "9.00",
+          "total": "S/ 2700.00",
+          "payments": [
+            {
+              "bank": "BCP",
+              "amount": 1500,
+              "date": "2025-05-10",
+              "operation": "000111",
+              "validated": true
+            }
+          ]
+        }
+      ],
+      "transport": {
+        "truck": {
+          "id": "1",
+          "driver": "Pedro Guzmán",
+          "plate": "ABC-123",
+          "origin": "Callao",
+          "originCoords": [
+            -12.0611,
+            -77.1188
+          ],
+          "lat": -12.0464,
+          "lng": -77.0428,
+          "fuel": "Diesel B5",
+          "quantity": 1200,
+          "status": "En ruta"
+        },
+        "driver": {
+          "id": "1",
+          "name": "Carlos Díaz",
+          "license": "B-123456",
+          "experience": 5
+        },
+        "tank": {
+          "id": "1",
+          "code": "TNK-001",
+          "capacity": 6000,
+          "status": "Available"
+        },
+        "compartment": "Compartment 1"
+      }
+    },
+    {
+      "id": "1749279672375",
+      "created": "2025-06-07",
+      "user": "Bryan ESPEJO",
+      "terminal": "Callao",
+      "amount": "S/ 10980.00",
+      "orderId": "d_28l2rm3bwn",
+      "status": "Released",
+      "products": [
+        {
+          "product": "Diesel B5",
+          "quantity": 1222,
+          "unit": "gal",
+          "price": "8.99",
+          "total": "S/ 10980.00",
+          "payments": [
+            {
+              "bank": {
+                "name": "BCP"
+              },
+              "amount": 10980,
+              "date": "2025-06-07T07:00:55.000Z",
+              "operation": "OPFRJXGRFL",
+              "validated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1749280504626",
+      "created": "2025-06-07",
+      "user": "Alexandra Chavez",
+      "terminal": "Pisco",
+      "amount": "S/ 10980.00",
+      "orderId": "d_ci3jue2ypb",
+      "status": "Released",
+      "products": [
+        {
+          "product": "Diesel B5",
+          "quantity": 1222,
+          "unit": "gal",
+          "price": "8.99",
+          "total": "S/ 10980.00",
+          "payments": [
+            {
+              "bank": {
+                "name": "BCP"
+              },
+              "amount": 10980,
+              "date": "2025-06-06T07:14:38.000Z",
+              "operation": "OPZ09A7Q1X",
+              "validated": false
+            }
+          ]
+        }
+      ],
+      "approved": true,
+      "transport": {
+        "truck": {
+          "id": "1",
+          "driver": "Pedro Guzmán",
+          "plate": "ABC-123",
+          "origin": "Callao",
+          "originCoords": [
+            -12.0611,
+            -77.1188
+          ],
+          "lat": -12.0464,
+          "lng": -77.0428,
+          "fuel": "Diesel B5",
+          "quantity": 1200,
+          "status": "En ruta"
+        },
+        "driver": {
+          "id": "1",
+          "name": "Carlos Díaz",
+          "license": "B-123456",
+          "experience": 5
+        },
+        "tank": {
+          "id": "1",
+          "code": "TNK-001",
+          "capacity": 6000,
+          "status": "Available"
+        },
+        "compartment": "Compartment 1"
+      }
+    },
+    {
+      "id": "1749372983447",
+      "created": "2025-06-08",
+      "user": "12",
+      "terminal": "Pisco",
+      "amount": "S/ 48.00",
+      "orderId": "d_5l646di4cv",
+      "status": "Released",
+      "products": [
+        {
+          "product": "Diesel B5",
+          "quantity": 1,
+          "unit": "gal",
+          "price": "8.00",
+          "total": "S/ 8.00",
+          "payments": [
+            {
+              "bank": {
+                "name": "BBVA"
+              },
+              "amount": 8,
+              "date": "2025-06-07T08:54:18.000Z",
+              "operation": "OPISUEIL1B",
+              "validated": false
+            }
+          ]
+        },
+        {
+          "product": "Diesel B5",
+          "quantity": 2,
+          "unit": "gal",
+          "price": "8.00",
+          "total": "S/ 16.00",
+          "payments": [
+            {
+              "bank": {
+                "name": "BCP"
+              },
+              "amount": 16,
+              "date": "2025-06-06T08:54:36.000Z",
+              "operation": "OPH7SE7H2H",
+              "validated": false
+            }
+          ]
+        },
+        {
+          "product": "Diesel B5",
+          "quantity": 3,
+          "unit": "gal",
+          "price": "8.00",
+          "total": "S/ 24.00",
+          "payments": [
+            {
+              "bank": {
+                "name": "BBVA"
+              },
+              "amount": 24,
+              "date": "2025-06-07T08:54:44.000Z",
+              "operation": "OPRWYTPRUK",
+              "validated": false
+            }
+          ]
+        }
+      ],
+      "approved": true,
+      "transport": {
+        "truck": {
+          "id": "1",
+          "driver": "Pedro Guzmán",
+          "plate": "ABC-123",
+          "origin": "Callao",
+          "originCoords": [
+            -12.0611,
+            -77.1188
+          ],
+          "lat": -12.0464,
+          "lng": -77.0428,
+          "fuel": "Diesel B5",
+          "quantity": 1200,
+          "status": "En ruta"
+        },
+        "driver": {
+          "id": "1",
+          "name": "Carlos Díaz",
+          "license": "B-123456",
+          "experience": 5
+        },
+        "tank": {
+          "id": "1",
+          "code": "TNK-001",
+          "capacity": 6000,
+          "status": "Available"
+        },
+        "compartment": "Compartment 1"
+      }
+    },
+    {
+      "id": "1749376346867",
+      "created": "2025-06-08",
+      "user": "1",
+      "terminal": "Callao",
+      "amount": "S/ 8.00",
+      "orderId": "d_hehhtceu6i",
+      "status": "Requested",
+      "products": [
+        {
+          "product": "Diesel B5",
+          "quantity": 1,
+          "unit": "gal",
+          "price": "8.00",
+          "total": "S/ 8.00",
+          "payments": [
+            {
+              "bank": "BCP",
+              "amount": 8,
+              "date": "2025-06-08T09:52:04.000Z",
+              "operation": "OPUXDKLHK8",
+              "validated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1749686834127",
+      "created": "2025-06-12",
+      "user": "Espejo ",
+      "terminal": "Monte Azul",
+      "amount": "S/ 1512.00",
+      "orderId": "d_hs18irf2gg",
+      "status": "Requested",
+      "products": [
+        {
+          "product": "Diesel B5",
+          "quantity": 122,
+          "unit": "gal",
+          "price": "12.00",
+          "total": "S/ 1464.00",
+          "payments": [
+            {
+              "bank": "BBVA",
+              "amount": 1464,
+              "date": "2025-06-12T00:06:15.000Z",
+              "operation": "OPUNIHOF26",
+              "validated": false
+            },
+            {
+              "bank": "BCP",
+              "amount": 0.1,
+              "date": "2025-06-12T00:06:30.000Z",
+              "operation": "OPGIJH7PBU",
+              "validated": false
+            }
+          ]
+        },
+        {
+          "product": "Diesel B5",
+          "quantity": 2,
+          "unit": "gal",
+          "price": "12.00",
+          "total": "S/ 24.00",
+          "payments": [
+            {
+              "bank": "Interbank",
+              "amount": 24,
+              "date": "2025-06-11T00:06:20.000Z",
+              "operation": "OPE5VJENQ6",
+              "validated": false
+            }
+          ]
+        },
+        {
+          "product": "Diesel B5",
+          "quantity": 2,
+          "unit": "gal",
+          "price": "12.00",
+          "total": "S/ 24.00",
+          "payments": [
+            {
+              "bank": "BBVA",
+              "amount": 24,
+              "date": "2025-06-11T00:06:25.000Z",
+              "operation": "OPJDXW6IJM",
+              "validated": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "terminals": [
+    {
+      "id": "1",
+      "name": "Callao"
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "Sebastián Rosas",
+      "email": "sebastian@fueltrack.com",
+      "password": "123456"
+    }
+  ],
+  "providers": [
+    {
+      "id": "1",
+      "company": "PetroFuel S.A.C.",
+      "ruc": "10498765432",
+      "fuels": [
+        "Diesel B5",
+        "GLP"
+      ],
+      "terminals": [
+        "Callao",
+        "Lurín"
+      ],
+      "rating": 4.5,
+      "totalOrders": 32,
+      "deliveredOnTime": 30
+    }
+  ],
+  "fuels": [
+    {
+      "id": "1",
+      "type": "Diesel B5",
+      "pricePerGal": "S/ 12.00"
+    }
+  ],
+  "trucks": [
+    {
+      "id": "1",
+      "driver": "Pedro Guzmán",
+      "plate": "ABC-123",
+      "origin": "Callao",
+      "originCoords": [
+        -12.0611,
+        -77.1188
+      ],
+      "lat": -12.0464,
+      "lng": -77.0428,
+      "fuel": "Diesel B5",
+      "quantity": 1200,
+      "status": "En ruta"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "1",
+      "ruc": "20123456789",
+      "name": "PetroPerú S.A.",
+      "email": "proveedor@fueltrack.com",
+      "password": "admin123"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "1",
+      "name": "Carlos Díaz",
+      "license": "B-123456",
+      "experience": 5
+    }
+  ],
+  "tanks": [
+    {
+      "id": "1",
+      "code": "TNK-001",
+      "capacity": 6000,
+      "status": "Available"
+    }
+  ]
+}

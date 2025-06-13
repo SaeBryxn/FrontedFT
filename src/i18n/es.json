@@ -1,0 +1,85 @@
+{
+  "welcome": {
+    "title": "Bienvenido a FuelTrack",
+    "subtitle": "Selecciona tu tipo de usuario para continuar:",
+    "client_title": "Cliente",
+    "client_desc": "Empresas que solicitan combustible",
+    "supplier_title": "Proveedor",
+    "supplier_desc": "Empresas que abastecen combustible"
+  },
+  "login": {
+    "client": {
+      "subtitle": "Optimiza la gestión de tus pedidos de combustible",
+      "submit": "Ingresar como Cliente",
+      "not_client": "¿No eres Cliente?"
+    },
+    "supplier": {
+      "subtitle": "Portal de acceso para Proveedores",
+      "submit": "Ingresar como Proveedor",
+      "not_supplier": "¿No eres Proveedor?"
+    },
+    "demo_client": "✅ Acceso de demostración como cliente",
+    "demo_supplier": "✅ Acceso de demostración como proveedor"
+  },
+  "sidebar": {
+    "client": {
+      "admin": "Admin",
+      "orders": "Órdenes",
+      "analytics": "Analítica",
+      "terminals": "Terminales",
+      "provider": "Proveedor",
+      "workflows": "Flujos"
+    },
+    "supplier": {
+      "admin": "Admin",
+      "orders": "Gestión de Órdenes",
+      "conciliations": "Conciliaciones",
+      "dispatch": "Despacho",
+      "analytics": "Analítica",
+      "prices": "Precios",
+      "clients": "Clientes"
+    }
+  },
+  "orders": {
+    "my_orders": "Mis órdenes",
+    "create_order": "Crear orden",
+    "filters": {
+      "total": "Órdenes Totales",
+      "approved": "Aprobadas",
+      "requested": "Solicitadas",
+      "filters": "Filtros",
+      "state": "Estado",
+      "all": "Todos",
+      "released": "Liberadas",
+      "closed": "Cerradas",
+      "from": "Desde",
+      "to": "Hasta",
+      "apply": "Aplicar"
+    },
+    "table": {
+      "created": "Creado",
+      "user": "Usuario",
+      "amount": "Monto",
+      "terminal": "Terminal",
+      "order_id": "ID de Orden",
+      "status": "Estado",
+      "copy_id": "Copiar ID"
+    }
+  },
+  "common": {
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "ruc": "RUC",
+    "click_here": "Haz clic aquí"
+  },
+  "pagination": {
+    "items_per_page": "Elementos por página",
+    "of": "de",
+    "items": "elementos"
+  },
+  "analytics": {
+    "fuelConsumption": "Consumo por tipo de combustible",
+    "totalVolume": "Volumen total despachado (galones)"
+  }
+
+}
